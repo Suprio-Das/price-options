@@ -1,0 +1,53 @@
+[
+    {
+        "id": "1",
+        "name": "Basic",
+        "price": 99.99,
+        "features": [
+            "Access to beginner courses",
+            "Weekly live Q&A sessions",
+            "Community forum access",
+            "Certificate of completion"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Standard",
+        "price": 199.99,
+        "features": [
+            "Access to beginner and intermediate courses",
+            "Bi-weekly live Q&A sessions",
+            "Community forum access",
+            "Certificate of completion",
+            "Project reviews"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Premium",
+        "price": 299.99,
+        "features": [
+            "Access to all courses",
+            "Weekly live Q&A sessions",
+            "Community forum access",
+            "Certificate of completion",
+            "Project reviews",
+            "1-on-1 mentorship sessions"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Pro",
+        "price": 499.99,
+        "features": [
+            "Access to all courses",
+            "Daily live Q&A sessions",
+            "Community forum access",
+            "Certificate of completion",
+            "Project reviews",
+            "1-on-1 mentorship sessions",
+            "Career counseling",
+            "Job placement assistance"
+        ]
+    }
+]
