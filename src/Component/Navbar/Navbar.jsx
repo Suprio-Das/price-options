@@ -14,7 +14,7 @@ const Navbar = () => {
         { name: 'Not Found', id: 5, path: '*' },
     ];
     return (
-        <nav className="bg-amber-500 p-3 lg:flex flex-row justify-center items-center">
+        <nav className="bg-amber-500 p-3 lg:flex flex-row justify-center items-center relative">
             <div className="md:hidden" onClick={() => setOpen(!open)}>
                 {
                     open === true ? <MdOutlineRestaurantMenu></MdOutlineRestaurantMenu> : <ImSpoonKnife></ImSpoonKnife>
@@ -25,6 +25,7 @@ const Navbar = () => {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
             </ul>
+
         </nav>
     );
 };
